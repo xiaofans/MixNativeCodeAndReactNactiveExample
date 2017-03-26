@@ -1,0 +1,16 @@
+{
+  "name": "xiaofans",
+  "version": "1.0.0",
+  "description": "a learn mix react native app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-native": "^0.42.3"
+  }
+}
