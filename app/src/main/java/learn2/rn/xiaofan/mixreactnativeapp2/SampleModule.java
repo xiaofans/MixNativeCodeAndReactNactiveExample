@@ -17,13 +17,15 @@ public class SampleModule extends ReactContextBaseJavaModule{
 
   @Override
   public String getName() {
-    return "SampleModule";
+    return "ActTo";
   }
 
   @ReactMethod
   public void startAct(){
     Intent intent = new Intent(getReactApplicationContext(),NativeForRNActivity.class);
+    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     getReactApplicationContext().startActivity(intent);
   }
+
 
 }

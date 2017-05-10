@@ -1,19 +1,26 @@
 'use strict';
 
 import React from 'react';
-import SampleModule from 'SampleModule';
 import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  TouchableOpacity
 } from 'react-native';
+
+import ActTo from './samplemodule'
 
 class HelloWorld extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.hello}>Hello, World</Text>
+
+        <TouchableOpacity onPress={()=> ActTo.startAct()}>
+         <Text style={styles.hello}>Click Me</Text>
+       </TouchableOpacity>
+
       </View>
     )
   }

@@ -12,4 +12,13 @@
     tools:context="learn2.rn.xiaofan.mixreactnativeapp2.NativeForRNActivity"
     >
 
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="深蓝学城 FROM RN"
+        />
+
 </RelativeLayout>
